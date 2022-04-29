@@ -1,8 +1,22 @@
-.lateral-color{
+body{
     background-color: black;
-    color: white;
 }
 
-.lateral-color::hoover{
-    color: gold;
+.box {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+  }
+  
+  .box div {
+    width: 100px;
+    height: 100px;
+  }
+
+
+
+.lateral-color{
+    color: white;
+    display:flex;    
 }
+
