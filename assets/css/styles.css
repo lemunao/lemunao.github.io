@@ -1,0 +1,8 @@
+.lateral-color{
+    background-color: black;
+    color: white;
+}
+
+.lateral-color::hoover{
+    color: gold;
+}
