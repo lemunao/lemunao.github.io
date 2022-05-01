@@ -76,3 +76,6 @@ footer a {
 footer a:hover {
   color: goldenrod;
 }
+.hov_decoration:hover{
+  color:azure;
+}
