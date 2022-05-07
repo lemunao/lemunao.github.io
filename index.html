@@ -6,230 +6,158 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <title>Portafolio</title>
   <!-- Favicon-->
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-  <!-- Font Awesome icons (free version)-->
-  <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
   <!-- Google fonts-->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
     type="text/css" />
   <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!--Font awesome-->
+  <script src="https://kit.fontawesome.com/4a0fac97f4.js" crossorigin="anonymous"></script>
   <link href="assets/css/styles.css" rel="stylesheet" />
 </head>
 
-<body id="page-top">
-  <!-- Navigation-->
-  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="#page-top">Presentación Portafolio</a>
-      <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
-        data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
-        aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-              href="https://lemunao.github.io/iguana-page/">Iguana</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-              href="https://lemunao.github.io/cuppon/">Cuppon</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-              href="contacto.html">Contact</a></li>
-          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="aportes.html">Aportes
-              compañeros</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- Masthead-->
-  <header class="masthead bg-primary text-white text-center">
-    <div class="container d-flex align-items-center flex-column">
-      <img class="masthead-avatar mb-5" src="assets/img/fotocv-.png" alt="Foto Pedro Lemunao" />
-      <h1 class="masthead-heading text-uppercase mb-0">Pedro Lemunao</h1>
-      <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-        <div class="divider-custom-line"></div>
-      </div>
-      <p class="masthead-subheading font-weight-light mb-0">Jefe de proyectos - Product manager - Product owner - Sales
-        engineer</p>
-    </div>
-  </header>
-  <section class="page-section portfolio" id="portfolio">
-    <div class="container">
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portafolio</h2>
-      <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-        <div class="divider-custom-line"></div>
-      </div>
-      <div class="row justify-content-center">
-        <!-- Portfolio Item 1-->
-        <div class="col-md-6 col-lg-4 mb-5">
-          <div class="portfolio-item mx-auto gallery" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-            <a href="https://lemunao.github.io/iguana-page/">
-              <img class="img-fluid" src="assets/img/bg-header.jpg" alt="Foto de iguana en fondo negro" />
-            </a>
-          </div>
-        </div>
-        <!-- Portfolio Item 2-->
-        <div class="col-md-6 col-lg-4 mb-5">
-          <div class="portfolio-item mx-auto gallery" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-            <a href="https://lemunao.github.io/cuppon/">
-              <img class="img-fluid" src="assets/img/logo-black.png" alt="Logo cuppon en negrita con fondo blanco" />
-            </a>
-          </div>
-        </div>
-        <!-- Portfolio Item 3-->
-        <div class="col-md-6 col-lg-4 mb-5">
-          <div class="portfolio-item mx-auto gallery" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-            <a href="index.html">
-              <img class="img-fluid" src="assets/img/pl.png" alt="Logo PL, letras en negro, corte en la mitad" />
-            </a>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- About Section-->
-  <section class="page-section bg-primary text-white mb-0" id="about">
-    <div class="container">
-      <h2 class="page-section-heading text-center text-uppercase text-white">Resumen</h2>
-      <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-        <div class="divider-custom-line"></div>
-      </div>
+<body>
+  <!--Section sidebar takes all the document to maintain the data structure of the sidebar in the website-->
+  <section id="SideBar">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-4 ms-auto">
-          <p class="lead">
-            Profesional de las tecnologías de información con foco en mejora continua, análisis de procesos, control de
-            gestión.
-            Desarrollo en base a prioridades de la compañía basandose en cantidad de ingresos, visibilidad del cliente o
-            exposición a nivel de negocios
-          </p>
+        <div class="col-sm-auto bg-dark sticky-top">
+          <div class="d-flex flex-sm-column flex-row flex-nowrap bg-dark align-items-center sticky-top">
+            <a href="/" class="d-block  link-dark text-decoration-none" title="" data-bs-toggle="tooltip"
+              data-bs-placement="right" data-bs-original-title="Icon-only">
+              <i class="bi-bootstrap fs-1"></i>
+            </a>
+            <ul
+              class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center justify-content-between w-100 px-3 align-items-center">
+              <li class="nav-item">
+                <a href="#" class="nav-link px-2 py-5" title="" data-bs-toggle="tooltip" data-bs-placement="right"
+                  data-bs-original-title="Home">
+                  <i class="fa-solid fa-house"></i>
+                </a>
+              </li>
+              <li>
+                <a href="http://www.linkedin.com/in/pedro-lemunao-cabrera" class="nav-link py-5 px-2" title=" Linkedin"
+                  data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Dashboard" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/lemunao" class="nav-link py-5 px-2" title="" data-bs-toggle="tooltip"
+                  data-bs-placement="right" data-bs-original-title="Orders" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </li>
+              <li>
+                <a href="/contacto.html" class="nav-link py-5 px-2" title="" data-bs-toggle="tooltip"
+                  data-bs-placement="right" data-bs-original-title="Products">
+                  <i class="fa-solid fa-address-card"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="col-lg-4 me-auto">
-          <p class="lead">
-            Experiencia como:
-          <ul>
-            <li>
-              Jefe de proyectos
-            </li>
-            <li>
-              Product manager
-            </li>
-            <li>
-              Product owner
-            </li>
-            <li>
-              Sales engineer
-            </li>
-          </ul>
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="page-section" id="contact">
-    <div class="container">
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-      <!-- Icon Divider-->
-      <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-        <div class="divider-custom-line"></div>
-      </div>
-      <!-- Contact Section Form-->
-      <div class="row justify-content-center">
-        <div class="col-lg-8 col-xl-7">
-          <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-            <!-- Name input-->
-            <div class="form-floating mb-3">
-              <input class="form-control" id="name" type="text" placeholder="Enter your name..."
-                data-sb-validations="required" />
-              <label for="name">Full name</label>
-              <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+        <div class="col-sm  min-vh-100 py-1">
+          <!-- content -->
+          <h2>Pedro Lemunao Cabrera</h2>
+          <hr />
+          <h3>Perfil profesional</h3>
+          <div class="row">
+            <div class="col-6">
+              <p>Profesional de las tecnologías de información con foco en mejora continua, análisis de procesos,
+                control
+                de
+                gestión. Desarrollo en base a prioridades de la compañía basandose en cantidad de ingresos, visibilidad
+                del
+                cliente o exposición a nivel de negocios</p>
             </div>
-            <!-- Email address input-->
-            <div class="form-floating mb-3">
-              <input class="form-control" id="email" type="email" placeholder="name@example.com"
-                data-sb-validations="required,email" />
-              <label for="email">Email address</label>
-              <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-              <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+            <div class="col-6">
+              <p>Experiencia como:
+              <ul>
+                <li>Jefe de proyectos</li>
+                <li>Product manager</li>
+                <li>Product owner</li>
+                <li>sales engineer</li>
+              </ul>
+              </p>
             </div>
-            <!-- Phone number input-->
-            <div class="form-floating mb-3">
-              <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
-                data-sb-validations="required" />
-              <label for="phone">Phone number</label>
-              <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-            </div>
-            <!-- Message input-->
-            <div class="form-floating mb-3">
-              <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..."
-                style="height: 10rem" data-sb-validations="required"></textarea>
-              <label for="message">Message</label>
-              <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-            </div>
-            <!-- Submit success message-->
-            <!---->
-            <!-- This is what your users will see when the form-->
-            <!-- has successfully submitted-->
-            <div class="d-none" id="submitSuccessMessage">
-              <div class="text-center mb-3">
-                <div class="fw-bolder">Form submission successful!</div>               
+          </div>
+          <div class="row cards-color">
+            <div class="col">
+              <div class="card">
+                <a href="https://lemunao.github.io/iguana-page/">
+                  <img src="/assets/img/bg-header.jpg" class="card-img-top"
+                    alt="Foto de iguana en fondo negro. Enlace hacia pagina web Iguana page del portafolio lemunao en github"></a>
+                <div class="card-body">
+                  <p class="card-text">Iguana Page project</p>
+                </div>
               </div>
             </div>
-            <!-- Submit error message-->
-            <!---->
-            <!-- This is what your users will see when there is-->
-            <!-- an error submitting the form-->
-            <div class="d-none" id="submitErrorMessage">
-              <div class="text-center text-danger mb-3">Error sending message!</div>
+
+            <div class="col">
+              <div class="card">
+                <a href="https://lemunao.github.io/cuppon/">
+                  <img src=" /assets/img/logo-black.png" class="card-img-top"
+                    alt="Logo Cuppon. Fondo blanco letras negras. Enlace direcciona a pagina web Cuppon del portafolio lemunao en github">
+                </a>
+                <div class="card-body">
+                  <p class="card-text">Cuppon proyect</p>
+                </div>
+              </div>
             </div>
-            <!-- Submit Button-->
-            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
-          </form>
+
+            <div class="col">
+              <div class="card">
+                <a href="https://lemunao.github.io/aportes.html">
+                  <img src="/assets/img/pl.png" class="card-img-top"
+                    alt="Imagen PL. Letras P L en mayuscula. Enlace direcciona hacia plataforma de colaboraciones de compañeros en Github."></a>
+                <div class="card-body">
+                  <p class="card-text">Link to collaborations Site</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
+
+
+
+
+
+
+
+        <footer class="footer text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 mb-5 mb-lg-0">
+                <h4 class="text-uppercase mb-4">Dirección</h4>
+                <p class="lead mb-0">
+                  Avenida Canelillos 259, El canelo
+                  <br />
+                  Algarrobo
+                </p>
+              </div>
+              <div class="col-lg-4 mb-5 mb-lg-0">
+                <h4 class="text-uppercase mb-4">Contacto</h4>
+                <a class="btn btn-outline-light btn-social mx-1"
+                  href="https://www.linkedin.com/in/pedro-lemunao-cabrera" target="_blank"><i
+                    class="fab fa-fw fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/lemunao" target="_blank"><i
+                    class="fa-brands fa-git"></i></a>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
   </section>
-  <!-- Footer-->
-  <footer class="footer text-center">
-    <div class="container">
-      <div class="row">
-        <!-- Footer Location-->
-        <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Dirección</h4>
-          <p class="lead mb-0">
-            Avenida Canelillos 259, El canelo
-            <br />
-            Algarrobo
-          </p>
-        </div>
-        <!-- Footer Social Icons-->
-        <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Contacto</h4>
-          <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/pedro-lemunao-cabrera" target="_blank"><i
-              class="fab fa-fw fa-linkedin-in"></i></a>
-          <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/lemunao" target="_blank"><i
-              class="fa-brands fa-git"></i></a>
-        </div>
-      </div>
-    </div>
-  </footer>
 
-  <!-- Bootstrap core JS-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Core theme JS-->
-  <script src="js/scripts.js"></script>
-  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+
+
+
 </body>
 
 </html>
