@@ -55,3 +55,10 @@ h1{
 .emailHelp-color{
   color: black;
 }
+
+#SideBar{
+	background-image: url(../img/galaxylemu.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
