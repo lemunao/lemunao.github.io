@@ -15,7 +15,6 @@ body{
   color: black;
 }
 
-
 .btn-flotante {
 	font-size: 16px; /* Cambiar el tamaño de la tipografia */
 	text-transform: uppercase; /* Texto en mayusculas */
@@ -45,7 +44,8 @@ body{
 		right: 20px;
 	}
 } 
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
+
+.card-size{
+  width: 20em;
+  margin: 10px;
+}
